@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>🌱 口癖診断アプリ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="main">
+    <h1>🌱 40代女性向け 口癖診断アプリ</h1>
+    <p>普段、自分がよく口にしている言葉に ✔ をつけてください（複数可）</p>
+    <form id="diagnosisForm">
+      <div class="questions">
+        <label><input type="checkbox" name="cat1" value="1">ちゃんとやらなきゃね</label><br>
+        <label><input type="checkbox" name="cat1" value="2">これくらい普通でしょ</label><br>
+        <label><input type="checkbox" name="cat1" value="3">まだまだ努力が足りない</label><br>
+        <label><input type="checkbox" name="cat1" value="4">完璧じゃないと納得できない</label><br>
+        <label><input type="checkbox" name="cat1" value="5">手を抜くとダメだから</label><br>
+
+        <label><input type="checkbox" name="cat2" value="6">私がやった方が早いから</label><br>
+        <label><input type="checkbox" name="cat2" value="7">迷惑かけたくないし</label><br>
+        <label><input type="checkbox" name="cat2" value="8">私さえ我慢すれば丸く収まる</label><br>
+        <label><input type="checkbox" name="cat2" value="9">お願いするのは悪いから</label><br>
+        <label><input type="checkbox" name="cat2" value="10">自分のことは後でいいよ</label><br>
+
+        <label><input type="checkbox" name="cat3" value="11">時間がない！</label><br>
+        <label><input type="checkbox" name="cat3" value="12">早くしなきゃ</label><br>
+        <label><input type="checkbox" name="cat3" value="13">効率よくやらなきゃ</label><br>
+        <label><input type="checkbox" name="cat3" value="14">まだ間に合うかな</label><br>
+        <label><input type="checkbox" name="cat3" value="15">待たせちゃ悪いから</label><br>
+
+        <label><input type="checkbox" name="cat4" value="16">大丈夫、大丈夫</label><br>
+        <label><input type="checkbox" name="cat4" value="17">まだ頑張れる</label><br>
+        <label><input type="checkbox" name="cat4" value="18">これくらい平気</label><br>
+        <label><input type="checkbox" name="cat4" value="19">無理じゃないから</label><br>
+        <label><input type="checkbox" name="cat4" value="20">疲れてないよ</label><br>
+
+        <label><input type="checkbox" name="cat5" value="21">どう思う？</label><br>
+        <label><input type="checkbox" name="cat5" value="22">やっぱり◯◯が言うならそうかな</label><br>
+        <label><input type="checkbox" name="cat5" value="23">嫌われたくないし</label><br>
+        <label><input type="checkbox" name="cat5" value="24">あの人にどう思われるかな</label><br>
+        <label><input type="checkbox" name="cat5" value="25">ちゃんと評価されたい</label><br>
+
+        <label><input type="checkbox" name="cat6" value="26">全部自分がやらなきゃ</label><br>
+        <label><input type="checkbox" name="cat6" value="27">私のせいかもしれない</label><br>
+        <label><input type="checkbox" name="cat6" value="28">任せると迷惑をかけちゃう</label><br>
+        <label><input type="checkbox" name="cat6" value="29">責任を取らなきゃ</label><br>
+        <label><input type="checkbox" name="cat6" value="30">人に頼るのは悪いこと</label><br>
+      </div>
+      <button type="submit">診断する</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
